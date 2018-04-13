@@ -7,7 +7,7 @@ const SignUP1 = () => {
             <div className="login-content text-center">
                 <div className="login-header">
                     <a className="app-logo" href="#/" title="Jambo">
-                        <img src="http://via.placeholder.com/220x80" alt="jambo" title="jambo" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Amazon_logo_plain.svg/2000px-Amazon_logo_plain.svg.png" alt="jambo" title="jambo" />
                     </a>
                 </div>
 

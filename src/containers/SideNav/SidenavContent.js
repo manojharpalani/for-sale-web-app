@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {withRouter} from 'react-router-dom';
+import {withRouter, NavLink} from 'react-router-dom';
 import Button from 'material-ui/Button';
 import 'jquery-slimscroll/jquery.slimscroll.min';
 
@@ -54,6 +54,41 @@ class SideNavContent extends Component {
             <ul className="nav-menu" ref={(c) => {
                 this.nav = c;
             }}>
+                <li className="nav-header">Off Work</li>
+                <li className="menu">
+                    <Button href="javascript:void(0)">
+                        <i className="zmdi zmdi-shopping-cart zmdi-hc-fw"/>
+                        <span className="nav-text text-transform-none">eCommerce</span>
+                    </Button>
+
+                    <ul className="sub-menu">
+
+                        <li>
+                            <Button className="prepend-icon" href="#/app/ecommerce/products-list">
+                                <span className="nav-text">Products List</span>
+                            </Button>
+                        </li>
+                        <li>
+                            <Button className="prepend-icon" href="#/app/ecommerce/products-grid">
+                                <span className="nav-text">Products Grid</span>
+                            </Button>
+                        </li>
+                    </ul>
+                </li>
+
+                <li className="menu">
+                  <Button className="void" href="javascript:void(0)">
+                    <i className="zmdi zmdi-settings zmdi-hc-fw mr-2" />
+                    <span className="nav-text">Settings</span>
+                  </Button>
+                  <ul className="sub-menu">
+                      <li>
+                          <Button className="prepend-icon" href="#/app/settings/change-password">
+                              <span className="nav-text">Change Password</span>
+                          </Button>
+                      </li>
+                  </ul>
+                </li>
 
                 <li className="nav-header">Main</li>
 
@@ -603,27 +638,6 @@ class SideNavContent extends Component {
 
                 <li className="menu">
                     <Button href="javascript:void(0)">
-                        <i className="zmdi zmdi-shopping-cart zmdi-hc-fw"/>
-                        <span className="nav-text text-transform-none">eCommerce</span>
-                    </Button>
-
-                    <ul className="sub-menu">
-
-                        <li>
-                            <Button className="prepend-icon" href="#/app/ecommerce/products-list">
-                                <span className="nav-text">Products List</span>
-                            </Button>
-                        </li>
-                        <li>
-                            <Button className="prepend-icon" href="#/app/ecommerce/products-grid">
-                                <span className="nav-text">Products Grid</span>
-                            </Button>
-                        </li>
-                    </ul>
-                </li>
-
-                <li className="menu">
-                    <Button href="javascript:void(0)">
                         <i className="zmdi zmdi-collection-item-8 zmdi-hc-fw"/>
                         <span className="nav-text">App Module</span>
                     </Button>
@@ -865,7 +879,6 @@ class SideNavContent extends Component {
                         </li>
                     </ul>
                 </li>
-
             </ul>
         );
     }

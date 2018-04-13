@@ -119,7 +119,7 @@ class App extends Component {
         }
 
         if (location.pathname === '/') {
-            return ( <Redirect to={'/app/dashboard/default'}/> );
+            return ( <Redirect to={'/app/app-module/login-2'}/> );
         }
         return (
             <MuiThemeProvider theme={applyTheme}>
@@ -138,5 +138,3 @@ const mapStateToProps = ({settings}) => {
 };
 
 export default connect(mapStateToProps)(App);
-
-

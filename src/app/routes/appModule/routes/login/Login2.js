@@ -11,7 +11,7 @@ const Login2 = () => {
             <div className="login-content">
                 <div className="login-header mb-4">
                     <a className="app-logo" href="#/" title="Jambo">
-                        <img src="http://via.placeholder.com/220x80" alt="jambo" title="jambo"/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Amazon_logo_plain.svg/2000px-Amazon_logo_plain.svg.png" alt="jambo" title="jambo"/>
                     </a>
                 </div>
 
@@ -52,7 +52,7 @@ const Login2 = () => {
                                 </div>
                             </div>
 
-                            <Button href="javascript:void(0)" raised className="jr-btn text-white btn-primary">Sign
+                            <Button href="#/app/ecommerce/products-grid" raised className="jr-btn text-white btn-primary">Sign
                                 In</Button>
 
                         </fieldset>

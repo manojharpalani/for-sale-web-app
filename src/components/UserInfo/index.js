@@ -23,11 +23,11 @@ class UserInfo extends React.Component {
             <div className="user-profile d-flex flex-row align-items-center">
                 <Avatar
                     alt='...'
-                    src='http://via.placeholder.com/256x256'
+                    src='https://pbs.twimg.com/profile_images/812177873465442305/PKyQl-J4.jpg'
                     className="user-avatar "
                 />
                 <div className="user-detail">
-                    <h4 className="user-name" onClick={this.handleClick}>Robert Johnson <i
+                    <h4 className="user-name" onClick={this.handleClick}>Manoj Harpalani <i
                         className="zmdi zmdi-caret-down zmdi-hc-fw align-middle"/>
                     </h4>
                 </div>
@@ -60,4 +60,3 @@ class UserInfo extends React.Component {
 }
 
 export default UserInfo;
-

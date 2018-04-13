@@ -60,7 +60,7 @@ class Header extends React.Component {
                     </IconButton>
 
                     <a className="app-logo" href="#/">
-                        <img src="http://via.placeholder.com/180x65" alt="Jambo" title="Jambo"/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Amazon_logo_plain.svg/2000px-Amazon_logo_plain.svg.png" alt="OffWork" title="Jambo"/>
                     </a>
 
 

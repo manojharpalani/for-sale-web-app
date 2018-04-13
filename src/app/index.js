@@ -32,6 +32,7 @@ import ChatPanel from './routes/chatPanel/basic/index';
 import Contact from "./routes/contact/basic/index";
 import ExtraPages from './routes/extraPages';
 import Tour from "../components/Tour/index";
+import Settings from './routes/settings/';
 
 import {COLLAPSED_DRAWER, FIXED_DRAWER} from 'constants/ActionTypes';
 import ColorOption from "containers/Customizer/ColorOption";
@@ -88,6 +89,7 @@ class App extends React.Component {
                             <Route path={`${match.url}/contact`} component={Contact}/>
                             <Route path={`${match.url}/contact-redux`} component={ContactWithRedux}/>
                             <Route path={`${match.url}/extra-pages`} component={ExtraPages}/>
+                            <Route path={`${match.url}/settings`} component={Settings} />
                         </div>
                     </main>
                     <Footer/>

@@ -1,6 +1,6 @@
 const productData = [
     {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'Alarm Clock',
         variant: 'Gold ',
         mrp: '$990 ',
@@ -31,7 +31,7 @@ const productData = [
         rating: 5,
         description: "Horo is a home grown brand with utmost emphasis on quality goods to users... ",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'Bizinto 1 Three Pin',
         variant: 'White',
         mrp: '$490 ',
@@ -62,7 +62,7 @@ const productData = [
         rating: 4,
         description: "Bizinto is an indirectly manufacture of Power strip in Delhi and supplying...",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'Samons Flameless',
         variant: 'Black',
         mrp: '$49 ',
@@ -93,7 +93,7 @@ const productData = [
         rating: 3.3,
         description: "Now light your cigarette buds with ease by using this USB Rechargeable...",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'Sony MDR-ZX110',
         variant: 'White',
         mrp: '$29 ',
@@ -124,7 +124,7 @@ const productData = [
         rating: 3.5,
         description: "Experience great sound quality with weight and foldable headphones...",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'iPhone 7',
         variant: 'Black,500Htz',
         mrp: '$400 ',
@@ -155,7 +155,7 @@ const productData = [
         rating: 4.2,
         description: "Bluetooth speaker, Karaoke singing, Car Stereo, instrument recording etc... •",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'Stonx v2.1',
         variant: 'Black',
         mrp: '$29 ',
@@ -186,7 +186,7 @@ const productData = [
         rating: 3.1,
         description: "1 Bluetooth Dongle, 1 Aux Cable, 1 Usb Cable, 1 Manual...",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'T-Shirts',
         variant: 'White',
         mrp: '$10 ',
@@ -217,7 +217,7 @@ const productData = [
         rating: 3.1,
         description: "1 Bluetooth Dongle, 1 Aux Cable, 1 Usb Cable, 1 Manual...",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'Led',
         variant: 'Gold ',
         mrp: '$10 ',
@@ -248,7 +248,7 @@ const productData = [
         rating: 5,
         description: "Horo is a home grown brand with emphasis on quality goods to our users... ",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'football',
         variant: 'Black',
         mrp: '$490 ',
@@ -279,7 +279,7 @@ const productData = [
         rating: 4,
         description: "Bizinto is an indirectly manufacture of Power strip in Delhi and supplying in all over india...",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'wach',
         variant: 'Black',
         mrp: '$49 ',
@@ -310,7 +310,7 @@ const productData = [
         rating: 3.3,
         description: "Now light your cigarette buds with ease by using this USB Rechargeable Electronic Flameless Lighter.",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'fan',
         variant: 'White,full speed',
         mrp: '$29 ',
@@ -341,7 +341,7 @@ const productData = [
         rating: 3.5,
         description: "Experience great sound quality with these light weight and fordable headphones.",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'Padraig Q7 Handheld',
         variant: 'Black,500Htz',
         mrp: '$56 ',
@@ -372,7 +372,7 @@ const productData = [
         rating: 4.2,
         description: "Bluetooth speaker, Karaoke singing, Car Stereo, instrument recording, interviews, podcasting, etc. •",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'speaker Car Bluetooth ',
         variant: 'Black',
         mrp: '$29 ',
@@ -403,7 +403,7 @@ const productData = [
         rating: 3.1,
         description: "1 Bluetooth Dongle, 1 Aux Cable, 1 Usb Cable, 1 Manual",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'Running Shoes',
         variant: 'Black',
         mrp: '$10 ',
@@ -434,7 +434,7 @@ const productData = [
         rating: 3.1,
         description: "1 Bluetooth Dongle, 1 Aux Cable, 1 Usb Cable, 1 Manual",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'Alarm Clock',
         variant: 'Gold ',
         mrp: '$990 ',
@@ -465,7 +465,7 @@ const productData = [
         rating: 5,
         description: "Horo is a home grown brand with utmost emphasis on quality goods ",
     }, {
-        thumb: 'http://via.placeholder.com/600x400',
+        thumb: 'https://picsum.photos/200/300/?random',
         name: 'Bizinto 1 Three Pin',
         variant: 'White',
         mrp: '$490 ',
