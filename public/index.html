@@ -1,32 +1,1010 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="keywords"
-          content="Responsive, HTML5, admin theme, business, professional, React, web design, CSS3, sass">
-    <title>Jumbo React - Admin Dashboard</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link rel="stylesheet" href="vendors/material-design-iconic-font/css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" href="vendors/weather-icons/css/weather-icons.min.css">
-    <link rel="stylesheet" type="text/css" href="vendors/flag/sprite-flags-32x32.css"/>
-    <link rel="stylesheet" href="vendors/animate.css">
-    <link rel="stylesheet" href="vendors/loader.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here">
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <title>Offwork</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Roboto:300,400,500" rel="stylesheet">
+    <link type="text/css" href="css/owl.carousel.min.css" rel="stylesheet">
 
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.28&libraries=places,geometry,drawing&key=AIzaSyBE8Qtppnww7z53gFZd9_Rbef1VfA4EJfw"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body id="body">
-<div id="app-site">
-    <div class="loader">
-        <svg class="circular" viewBox="25 25 50 50">
-            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
-        </svg>
-    </div>
-</div>
-<script src="assets/app.js"></script>
-</body>
-</html>
+<body>
+   
+   <header class="main-header">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-8 col-sm-10 col-ss-9 col-xs-12">
+                   <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                        </div>
 
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="current"><a href="#">Home</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">Client Review</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+               </div>
+               <div class="col-md-4 col-sm-2 col-ss-3 col-xs-12" style="position: static">
+                   <ul class="login">
+                       <li><a href="#"><i class="lnr lnr-user"></i><span>Login</span></a></li>
+                       <li><a href="#"><i class="lnr lnr-arrow-right"></i><span>Signup</span></a></li>
+                       <li><a href="#"><i class="lnr lnr-magnifier"></i><span>Search</span></a></li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+   </header>
+    <!--   /*======================= Banner ===================*/-->
+    <section class="banner">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="text">
+                            <h1>Shop an <br> save <br> Big on <br> <span>Off Work*</span></h1>
+                            <div style="max-width: 180px;">
+                                <a href="home.html" class="btn button">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-6 col-md-offset-1">
+                        <div class="banner-pic">
+                            <img src="images/banner.png" class="thumbnail-overlay-responsive img-responsive" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    /*======================= top-product ===================*/-->
+    <section class="top-product space">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-headding text-center">
+                        <h2>Our Top Product <span>Features</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex">
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <div class="thumbnail-overlay">
+                            <img src="images/product-1.jpg" alt="">
+                            <div class="discount">
+                                50% <br> 0FF
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="price">75$</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <div class="thumbnail-overlay">
+                            <img src="images/product-2.jpg" alt="">
+                            <div class="discount">
+                                50% <br> 0FF
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="price">75$</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <div class="thumbnail-overlay">
+                            <img src="images/product-3.jpg" alt="">
+                            <div class="discount">
+                                50% <br> 0FF
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="price">75$</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <div class="thumbnail-overlay">
+                            <img src="images/product-4.jpg" alt="">
+                            <div class="discount">
+                                50% <br> 0FF
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="price">75$</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <div class="thumbnail-overlay">
+                            <img src="images/product-5.jpg" alt="">
+                            <div class="discount">
+                                50% <br> 0FF
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="price">75$</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <div class="thumbnail-overlay">
+                            <img src="images/product-6.jpg" alt="">
+                            <div class="discount">
+                                50% <br> 0FF
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="price">75$</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <div class="thumbnail-overlay">
+                            <img src="images/product-7.jpg" alt="">
+                            <div class="discount">
+                                50% <br> 0FF
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="price">75$</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <div class="thumbnail-overlay">
+                            <img src="images/product-8.jpg" alt="">
+                            <div class="discount">
+                                50% <br> 0FF
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="price">75$</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    /*======================= regular-product ===================*/-->
+    <section class="regular-product space">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-headding text-center">
+                        <h2>Our Regular <span>Product</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="img thumbnail-overlay">
+                            <div>
+                                <img src="images/reg-product-1.jpg" class="img-responsive" alt="">
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="row comment-active">
+                                <div class="col-xs-6">
+                                    <div class="price">75$</div>
+                                </div>
+                                <div class="col-xs-6 replyu">
+                                    <div class="like-comment">
+                                        <ul>
+                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                            <li><a href="#"><i class="lnr lnr-heart"></i></a></li>
+                                            <li><a href="javascript:void(0);" class="reg-comment"><i class="lnr lnr-bubble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div id="comments">
+                                <ul>
+                                    <li class="clearfix">
+                                        <div class="avator">
+                                            <img src="images/avator.png" alt="">
+                                        </div>
+                                        <div class="comment-text">
+                                            <a href="#" class="title">John Doe</a>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing elit, sed do tempor incididunt ut. aliqua. Ut enim ad minim </p>
+                                            <div class="row">
+                                                <div class="col-xs-12 like-reply">
+                                                    <a href="javascript:void(0);" class="like">Like</a>
+                                                    <a href="javascript:void(0);" class="replyu">Reply</a>
+                                                    <div class="like-comment">
+                                                        <ul>
+                                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="avator">
+                                            <img src="images/avator.png" alt="">
+                                        </div>
+                                        <div class="comment-text">
+                                            <a href="#" class="title">John Doe</a>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing elit, sed do tempor incididunt ut. aliqua. Ut enim ad minim </p>
+                                            <div class="row">
+                                                <div class="col-xs-12 like-reply">
+                                                    <a href="javascript:void(0);" class="like">Like</a>
+                                                    <a href="javascript:void(0);" class="replyu active">Reply</a>
+                                                    <div class="like-comment">
+                                                        <ul>
+                                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="img thumbnail-overlay">
+                            <div>
+                                <img src="images/reg-product-2.png" class="img-responsive" alt="">
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="row comment-active">
+                                <div class="col-xs-6">
+                                    <div class="price">75$</div>
+                                </div>
+                                <div class="col-xs-6 replyu">
+                                    <div class="like-comment">
+                                        <ul>
+                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                            <li><a href="#"><i class="lnr lnr-heart"></i></a></li>
+                                            <li><a href="javascript:void(0);" class="reg-comment"><i class="lnr lnr-bubble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div id="comments">
+                                <ul>
+                                    <li class="clearfix">
+                                        <div class="avator">
+                                            <img src="images/avator.png" alt="">
+                                        </div>
+                                        <div class="comment-text">
+                                            <a href="#" class="title">John Doe</a>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing elit, sed do tempor incididunt ut. aliqua. Ut enim ad minim </p>
+                                            <div class="row">
+                                                <div class="col-xs-12 like-reply">
+                                                    <a href="javascript:void(0);" class="like">Like</a>
+                                                    <a href="javascript:void(0);" class="replyu">Reply</a>
+                                                    <div class="like-comment">
+                                                        <ul>
+                                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="avator">
+                                            <img src="images/avator.png" alt="">
+                                        </div>
+                                        <div class="comment-text">
+                                            <a href="#" class="title">John Doe</a>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing elit, sed do tempor incididunt ut. aliqua. Ut enim ad minim </p>
+                                            <div class="row">
+                                                <div class="col-xs-12 like-reply">
+                                                    <a href="javascript:void(0);" class="like">Like</a>
+                                                    <a href="javascript:void(0);" class="replyu active">Reply</a>
+                                                    <div class="like-comment">
+                                                        <ul>
+                                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="img thumbnail-overlay">
+                            <div>
+                                <img src="images/reg-product-3.png" class="img-responsive" alt="">
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="row comment-active">
+                                <div class="col-xs-6">
+                                    <div class="price">75$</div>
+                                </div>
+                                <div class="col-xs-6 replyu">
+                                    <div class="like-comment">
+                                        <ul>
+                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                            <li><a href="#"><i class="lnr lnr-heart"></i></a></li>
+                                            <li><a href="javascript:void(0);" class="reg-comment"><i class="lnr lnr-bubble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div id="comments">
+                                <ul>
+                                    <li class="clearfix">
+                                        <div class="avator">
+                                            <img src="images/avator.png" alt="">
+                                        </div>
+                                        <div class="comment-text">
+                                            <a href="#" class="title">John Doe</a>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing elit, sed do tempor incididunt ut. aliqua. Ut enim ad minim </p>
+                                            <div class="row">
+                                                <div class="col-xs-12 like-reply">
+                                                    <a href="javascript:void(0);" class="like">Like</a>
+                                                    <a href="javascript:void(0);" class="replyu">Reply</a>
+                                                    <div class="like-comment">
+                                                        <ul>
+                                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="avator">
+                                            <img src="images/avator.png" alt="">
+                                        </div>
+                                        <div class="comment-text">
+                                            <a href="#" class="title">John Doe</a>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing elit, sed do tempor incididunt ut. aliqua. Ut enim ad minim </p>
+                                            <div class="row">
+                                                <div class="col-xs-12 like-reply">
+                                                    <a href="javascript:void(0);" class="like">Like</a>
+                                                    <a href="javascript:void(0);" class="replyu active">Reply</a>
+                                                    <div class="like-comment">
+                                                        <ul>
+                                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="img thumbnail-overlay">
+                            <div>
+                                <img src="images/reg-product-4.png" class="img-responsive" alt="">
+                            </div>
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="#" class="title">Iphone 5s</a>
+                            <p>Lorem ipsum dolor siconsectetur adipisicing elit, sed do eiu tempor incididunt.</p>
+                            <div class="row comment-active">
+                                <div class="col-xs-6">
+                                    <div class="price">75$</div>
+                                </div>
+                                <div class="col-xs-6 replyu">
+                                    <div class="like-comment">
+                                        <ul>
+                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                            <li><a href="#"><i class="lnr lnr-heart"></i></a></li>
+                                            <li><a href="javascript:void(0);" class="reg-comment"><i class="lnr lnr-bubble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div id="comments">
+                                <ul>
+                                    <li class="clearfix">
+                                        <div class="avator">
+                                            <img src="images/avator.png" alt="">
+                                        </div>
+                                        <div class="comment-text">
+                                            <a href="#" class="title">John Doe</a>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing elit, sed do tempor incididunt ut. aliqua. Ut enim ad minim </p>
+                                            <div class="row">
+                                                <div class="col-xs-12 like-reply">
+                                                    <a href="javascript:void(0);" class="like">Like</a>
+                                                    <a href="javascript:void(0);" class="replyu">Reply</a>
+                                                    <div class="like-comment">
+                                                        <ul>
+                                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="avator">
+                                            <img src="images/avator.png" alt="">
+                                        </div>
+                                        <div class="comment-text">
+                                            <a href="#" class="title">John Doe</a>
+                                            <p>Lorem ipsum dolor amet consectetur adipisicing elit, sed do tempor incididunt ut. aliqua. Ut enim ad minim </p>
+                                            <div class="row">
+                                                <div class="col-xs-12 like-reply">
+                                                    <a href="javascript:void(0);" class="like">Like</a>
+                                                    <a href="javascript:void(0);" class="replyu active">Reply</a>
+                                                    <div class="like-comment">
+                                                        <ul>
+                                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    /*======================= blog ===================*/-->
+    <section class="blog space">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-headding text-center">
+                        <h2>Our Regular <span>Blog</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex">
+                <div class="col-md-4 col-xs-12">
+                    <div class="item clearfix">
+                        <div class="thumbnail-overlay">
+                            <img src="images/blog-1.jpg" alt="">
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div style="max-width: 112px">
+                                        <a href="#" class="btn">Mobile</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <date>01.03.2018</date>
+                                </div>
+                            </div>
+                            <a href="#" class="title">Top News For Web Development in our page</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur eiusmod tempor incididunt ut labore veniam quis nostrud exerc.</p>
+                            <a href="#" class="read-more">Read More <i class="lnr lnr-arrow-right"></i></a>
+                            <div class="row">
+                                <div class="col-xs-7">
+                                    <time>by Maddy Simmons - 7hr Ago</time>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="like-comment">
+                                        <ul>
+                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                            <li><a href="#"><i class="lnr lnr-heart"></i></a></li>
+                                            <li><a href="#"><i class="lnr lnr-bubble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="item clearfix">
+                        <div class="thumbnail-overlay">
+                            <img src="images/blog-2.jpg" alt="">
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div style="max-width: 112px">
+                                        <a href="#" class="btn">Mobile</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <date>01.03.2018</date>
+                                </div>
+                            </div>
+                            <a href="#" class="title">Top News For Web Development in our page</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur eiusmod tempor incididunt ut labore veniam quis nostrud exerc.</p>
+                            <a href="#" class="read-more">Read More <i class="lnr lnr-arrow-right"></i></a>
+                            <div class="row">
+                                <div class="col-xs-7">
+                                    <time>by Maddy Simmons - 7hr Ago</time>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="like-comment">
+                                        <ul>
+                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                            <li><a href="#"><i class="lnr lnr-heart"></i></a></li>
+                                            <li><a href="#"><i class="lnr lnr-bubble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="item clearfix">
+                        <div class="thumbnail-overlay">
+                            <img src="images/blog-3.jpg" alt="">
+                            <a href="#" class="overlay">
+                                <i class="lnr lnr-link"></i>
+                            </a>
+                        </div>
+                        <div class="text">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div style="max-width: 112px">
+                                        <a href="#" class="btn">Mobile</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <date>01.03.2018</date>
+                                </div>
+                            </div>
+                            <a href="#" class="title">Top News For Web Development in our page</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur eiusmod tempor incididunt ut labore veniam quis nostrud exerc.</p>
+                            <a href="#" class="read-more">Read More <i class="lnr lnr-arrow-right"></i></a>
+                            <div class="row">
+                                <div class="col-xs-7">
+                                    <time>by Maddy Simmons - 7hr Ago</time>
+                                </div>
+                                <div class="col-xs-5">
+                                    <div class="like-comment">
+                                        <ul>
+                                            <li><a class="active" href="#"><i class="lnr lnr-thumbs-up"></i></a></li>
+                                            <li><a href="#"><i class="lnr lnr-heart"></i></a></li>
+                                            <li><a href="#"><i class="lnr lnr-bubble"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    /*======================= review===================*/-->
+    <section class="review space">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-headding text-center">
+                        <h2>Client <span>Review</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="client-review-carousel owl-carousel">
+                <div class="content clearfix">
+                    <div class="img">
+                        <img src="images/review-1.png" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                        <h4>Jack Jawson - <span>USA</span></h4>
+                    </div>
+                </div>
+                <div class="content clearfix">
+                    <div class="img">
+                        <img src="images/review-2.png" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                        <h4>Jack Jawson - <span>USA</span></h4>
+                    </div>
+                </div>
+                <div class="content clearfix">
+                    <div class="img">
+                        <img src="images/review-1.png" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                        <h4>Jack Jawson - <span>USA</span></h4>
+                    </div>
+                </div>
+                <div class="content clearfix">
+                    <div class="img">
+                        <img src="images/review-2.png" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                        <h4>Jack Jawson - <span>USA</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    /*======================= contact-us ===================*/-->
+    <section class="contact-us space">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-headding text-center">
+                        <h2>Contact <span>Us</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <p>someonemail@Email.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <p>uk street 123 road <br> soundown t41427</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <p>(+880) 16252-11-351</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#" class="contact-form clearfix">
+                    <div class="col-md-6 col-sm-6 col-ss-6">
+                        <input type="text" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-ss-6">
+                        <input type="email" placeholder="Your Email">
+                    </div>
+                    <div class="col-xs-12">
+                        <textarea placeholder="Your Message Here *"></textarea>
+                    </div>
+                    <div class="col-xs-12 text-center">
+                        <div style="max-width: 200px;margin: 0 auto;">
+                            <button>Submit Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--    /*======================= patner===================*/-->
+    <section class="patner">
+        <div class="container">
+            <div class="owl-carousel partner-carousel">
+                <div class="content">
+                    <div class="img">
+                        <div><img src="images/patner-1.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="img">
+                        <div><img src="images/patner-2.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="img">
+                        <div><img src="images/patner-3.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="img">
+                        <div><img src="images/patner-4.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="img">
+                        <div><img src="images/patner-5.png" alt=""></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--    /*======================= footer ===================*/-->
+    <footer class="main-footer space">
+        <div class="container">
+            <div class="row flex">
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <img src="images/address.jpg" style="width: 100%;" alt="">
+                        <ul class="addres-list">
+                            <li class="clearfix"><i class="fas fa-location-arrow"></i>
+                                <p>124/A Gandariya Dhaka 1204</p>
+                            </li>
+                            <li class="clearfix"><i class="fas fa-phone-square"></i>
+                                <p>+00 91 234 567 890</p>
+                            </li>
+                            <li class="clearfix"><i class="fab fa-firefox"></i>
+                                <p>
+                                    <a href="#">www.educare.com</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 col-ss-6 col-md-3 col-lg-offset-1">
+                    <div class="item">
+                        <h3>Useful links</h3>
+                        <ul class="list">
+                            <li class="clearfix"><span><i></i></span><a href="#">Features Product</a></li>
+                            <li class="clearfix"><span><i></i></span><a href="#">Features Product</a></li>
+                            <li class="clearfix"><span><i></i></span><a href="#">Blog</a></li>
+                            <li class="clearfix"><span><i></i></span><a href="#">Features Product</a></li>
+                            <li class="clearfix"><span><i></i></span><a href="#">Contact US</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <h3>Recent Course</h3>
+                        <ul class="recent">
+                            <li class="clearfix">
+                                <div class="img">
+                                    <img src="images/cor-1.jpg" alt="">
+                                </div>
+                                <div class="text clearfix">
+                                    <div class="col-xs-12 no-padding    ">
+                                        <a href="#" class="title">iphone X</a>
+                                    </div>
+                        
+                                    <div class="col-xs-6 no-padding">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="col-xs-6 text-right no-padding">
+                                        <div class="review-count">200 Review</div>
+                                    </div>
+                        
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="img">
+                                    <img src="images/cor-2.jpg" alt="">
+                                </div>
+                                <div class="text clearfix">
+                                    <div class="col-xs-12 no-padding    ">
+                                        <a href="#" class="title">iphone X</a>
+                                    </div>
+                        
+                                    <div class="col-xs-6 no-padding">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="col-xs-6 text-right no-padding">
+                                        <div class="review-count">200 Review</div>
+                                    </div>
+                        
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="img">
+                                    <img src="images/cor-3.jpg" alt="">
+                                </div>
+                                <div class="text clearfix">
+                                    <div class="col-xs-12 no-padding    ">
+                                        <a href="#" class="title">iphone X</a>
+                                    </div>
+                        
+                                    <div class="col-xs-6 no-padding">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="col-xs-6 text-right no-padding">
+                                        <div class="review-count">200 Review</div>
+                                    </div>
+                        
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-ss-6">
+                    <div class="item">
+                        <h3>Send Message</h3>
+                        <form action="#" class="footer-form">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Email">
+                            <textarea placeholder="Message"></textarea>
+                            <input type="submit" value="Send Message">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="footer-social text-center">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="copy text-center">
+                            Copy Right <span>2018</span>@ All Right Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+    <script src="js/custom.js" type="text/javascript"></script>
+</body>
+
+</html>

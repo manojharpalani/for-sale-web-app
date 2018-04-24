@@ -1,0 +1,131 @@
+@media (max-width:1199px) {
+    .banner .text {
+        padding: 0;
+    }
+    .banner .overlay::after {
+        width: 40%;
+    }
+    .main-footer .recent .text i {
+        font-size: 7px;
+    }
+}
+
+@media (max-width:991px) {
+    .banner h1 {
+        font-size: 46px;
+    }
+    .banner .overlay::after {
+        width: 30%;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-collapse.collapse.in {
+        /* NEW */
+        display: block!important;
+    }
+    .main-header .login li span {
+        display: none;
+    }
+    .main-header .navbar-nav {
+        margin-top: 10px;
+        float: none !important;
+    }
+    .navbar-default .navbar-collapse {
+        border-color: transparent;
+    }
+    .navbar-toggle {
+        margin-top: 10px;
+    }
+    .blog .item {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .contact-us .item p {
+        font-size: 18px;
+    }
+    .main-footer {
+        .item {
+            padding: 15px 0;
+        }
+    }
+    .main-footer .recent .text i {
+	font-size: 11px;
+}
+}
+
+
+@media (max-width:767px) {
+    .banner .banner-pic,
+    .banner .overlay::after,
+    .banner h1 br {
+        display: none;
+    }
+    .banner .overlay {
+        margin: 45px 0;
+    }
+    .space {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width:575px){
+    .top-product .item {
+	max-width: 400px;
+	margin: 0 auto;
+}
+    .main-header .login {
+	position: absolute;
+	right: 0;
+	top: 40px;
+}
+    .navbar-toggle {
+	margin-top: 32px;
+	margin-right: 96px;
+}
+}
+
+
+@media (max-width:479px){
+    .client-review-carousel .content {
+	display: block;
+}
+    .client-review-carousel .content .img {
+	float: none;
+	width: 100%;
+	display: block;
+}
+    .client-review-carousel .content .img img {
+	margin: 0 auto;
+}
+    .client-review-carousel .content .text {
+	float: none;
+	width: 100%;
+	display: block;
+	padding: 20px;
+}
+    .section-headding h2 {
+	font-size: 27px;
+}
+    .client-review-carousel .content .text {
+	text-align: center;
+}
+}

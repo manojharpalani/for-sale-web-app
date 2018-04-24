@@ -1,10 +1,10 @@
-import {DARK_THEME, DRAWER_TYPE, MINI_DRAWER, THEME_COLOR, TOGGLE_COLLAPSED_NAV} from 'constants/ActionTypes';
-import {CYAN} from "constants/ThemeColors";
+import {DARK_THEME, DRAWER_TYPE, COLLAPSED_DRAWER, THEME_COLOR, TOGGLE_COLLAPSED_NAV} from 'constants/ActionTypes';
+import {AMBER} from "constants/ThemeColors";
 
 const initialSettings = {
-    navCollapsed: false,
-    drawerType: MINI_DRAWER,
-    themeColor: CYAN,
+    navCollapsed: true,
+    drawerType: COLLAPSED_DRAWER,
+    themeColor: AMBER,
     darkTheme: false,
 };
 
