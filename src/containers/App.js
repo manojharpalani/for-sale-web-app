@@ -33,7 +33,12 @@ import {
     INDIGO,
     PINK
 } from "constants/ThemeColors";
+import Amplify from 'aws-amplify';
+import aws_exports from '../aws-exports';
+import { Analytics } from 'aws-amplify';
+import { withAuthenticator } from 'aws-amplify-react';
 
+Amplify.configure(aws_exports);
 
 class App extends Component {
 
@@ -110,7 +115,7 @@ class App extends Component {
 
     render() {
         const {match, location, themeColor, isDarkTheme} = this.props;
-
+        Analytics.record('appRender');
         let applyTheme = createMuiTheme(indigoTheme);
         if (isDarkTheme) {
             applyTheme = createMuiTheme(darkTheme)
@@ -137,4 +142,4 @@ const mapStateToProps = ({settings}) => {
     return {themeColor, sideNavColor, isDarkTheme: darkTheme}
 };
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps)(withAuthenticator(App));
