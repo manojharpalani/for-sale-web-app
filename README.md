@@ -1,6 +1,11 @@
 # README #
 
-Jumbo React Documentation -> http://jumbo-react.g-axon.com/documentation/
+Steps to run on local:
+1. yarn
+2. yarn start
+3. Open http://localhost:3000/
+
+Read Jumbo React Documentation for more details -> http://jumbo-react.g-axon.com/documentation/
 
 ### What is this repository for? ###
 
